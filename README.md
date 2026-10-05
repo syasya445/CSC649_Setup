@@ -1,16 +1,16 @@
 # CSC649 Setup Activity
 
 ## Description
-This program takes a user input sentence and displays the total word count and total character count (including spaces). It includes validation for empty inputs.
+This program prompts the user to enter a sentence, checks for empty input, and calculates the total word count and character count (including spaces).
 
 ## How to Run
 Run the program using Python 3.12:
 `python main.py`
 
 ## Test Results
-- **Normal Sentence:** Successfully counts words and characters.
-- **Empty Input:** Displays error message.
-- **Extra Spaces:** Properly trims whitespace without breaking word count.
+- **Normal Sentence:** Displays correct word count and character count.
+- **Empty Input:** Displays "You did not enter a sentence."
+- **Extra Spaces:** `strip()` handles extra leading/trailing whitespace properly.
 
 ## Limitations
-- Does not strip punctuation marks before counting words.
+- Punctuation marks are counted as part of words when splitting by space."# CSC649_Setup" 
